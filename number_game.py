@@ -9,7 +9,7 @@ myName = input()
 number = random.randint(1, 20)
 print('Well, ' + myName + ', I am thinking of a number between 1 and 20.')
 
-for i in range(6):
+for i in range(1-6):
         print('Take a guess.')
         guess = input()
         guess = int(guess)
